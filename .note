@@ -1,0 +1,26 @@
+Django Arcitechture:
+
+first new app..
+url path
+migration to create databases : for this app databases
+create model means databases table model
+make migration create migration file
+
+> django shell for interactive shell to access current var, debug.
+
+
+> admin interface is seperated for stuff so admin panel is available in django. here 
+	you can add databases here.. its kinda cool..
+	its a new thinking for me.
+	- It's kind of new idea, user cann not create new model here, but can give entry of data here.
+
+	: So first need to watch other's work.
+
+> Starting apps vs project
+	adding this app in setting
+
+
+Homework:
+	- by learning vote project, I can extend the same idea first then I can build my own project.
+	- take this key ideas here and think about your readwise apps.
+	- first I've to build user and Notes model.
