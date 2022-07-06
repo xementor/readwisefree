@@ -76,3 +76,13 @@ Tests are routines that check the operation of your code.
 Testing operates at different levels. Some tests might apply to a tiny detail (does a particular model method return values as expected?) while others examine the overall operation of the software (does a sequence of user inputs on the site produce the desired result?). That’s no different from the kind of testing you did earlier in Tutorial 2, using the shell to examine the behavior of a method, or running the application and entering data to check how it behaves.
 
 What’s different in automated tests is that the testing work is done for you by the system. You create a set of tests once, and then as you make changes to your app, you can check that your code still works as you originally intended, without having to perform time consuming manual testing. [more](https://docs.djangoproject.com/en/4.0/intro/tutorial05/)
+
+
+
+## Without target and time limitation
+
+- Brain get very tired when it cannot measure time, how much it works. It try to decieve yourself , as you don't count time, it gives you a sense that it much time, so just go away.
+in contrary when you set time, then you can see that of track that this time is not enough for perticlular topic so. brail get ready to work.
+
+- Another mistake is , in this bLOKEd time what you have done . what your todo. just focus on that.
+- Don't think you can't achive this. rather think how to build a successfull project that can be shown as a porfolio.

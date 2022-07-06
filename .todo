@@ -1,3 +1,18 @@
-- [ ] Add user model.
-- [ ] create form to add quize
-- [ ] who are giving quize
+## Todo
+
+- [ ] who is voting.
+- [ ] onely one vote for a user.
+- [ ] set authentication.
+
+- [x] Add user model.
+- [x] who are giving quize
+- [x] create form to add quize
+- [x] add user sign up and sign in.
+	x write form
+	x route
+	x databases.
+- [x] django session and logout.
+
+
+- Have to modify only question options
+- vote increment should be automatice.

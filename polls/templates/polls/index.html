@@ -1,3 +1,31 @@
+
+<div>
+    <div>
+        Hi {{ user }} 
+    </div>
+    <div display="float">
+        <a href="{% url 'polls:logout' %}">logout</a>
+    </div>
+</div>
+
+
+<h3>Create a question </h3>
+
+<form action="{% url 'polls:addQuestion' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="question_text">
+    <br>
+    <p>Otipons</p>
+    <input type="text" name="choice1"> <br>
+    <input type="text" name="choice2"> <br>
+    <input type="text" name="choice3"> <br>
+    <input type="text" name="choice4"> <br>
+
+    <input type="submit" name="submit" value="Ask">
+</form>
+
+
+
 {% if latest_question_list %}
     <ul>
     {% for question in latest_question_list %}

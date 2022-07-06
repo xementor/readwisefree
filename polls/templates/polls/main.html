@@ -1,0 +1,34 @@
+<a href="{% url 'polls:signIn' %}">ok </a>
+
+<form action="{% url 'polls:signIn' %}" method="post">
+    {% csrf_token %}
+    <label for="username">
+        Username
+    </label>
+    <input type="text" name="username">
+
+    <label for="pass">
+        Password
+    </label>
+    <input type="text" name="pass">
+   
+    <input type="submit" name="submit" value="login">
+</form>
+
+
+
+
+<form action="{% url 'polls:signUp' %}" method="post">
+    {% csrf_token %}
+    <label for="Username">
+        Username
+    </label>
+    <input type="text" name="username">
+
+    <label for="pass">
+        Password
+    </label>
+    <input type="text" name="pass">
+   
+    <input type="submit" name="submit" value="signup">
+</form>
